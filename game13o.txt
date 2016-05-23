@@ -21,7 +21,7 @@ displayed on one page wherein: each row is labeled
 by a set of two characters representing the first two
 cards of the player's hand, wherein each column is
 labeled by a set of two characters representing the
-first two cards of the dealer's hand, and wherein zero
+first two cards of the dealer's hand, and wherein zero 
 represents the rank of joker.
  
 In each combination-dependent-playing-strategy subtable
