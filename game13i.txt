@@ -1,0 +1,265 @@
+BIGS907 enables users to study a subset of Finnish 27 games wherein
+the dealer forms the dealer's initial hand by dealing two playing cards
+face up.
+ 
+This text file provides a record of the user's responses 
+to prompts for user input made by theBIGS907 software application.
+ 
+enter the 'folder/filename prefix' of the files
+to be used to store application output.
+J23h25s6d/game13
+ 
+enter the 'folder/filename prefix' of the files
+containing data about the player finish probabilities 
+to be loaded into program memory.
+903docs/wc6d
+ 
+enter the 'folder/filename prefix' of the files
+containing data about the dealer finish probabilities 
+to be loaded into program memory.
+906docs/wc6d
+ 
+the description of the databases reads as follows: 
+open 903docs/wc6di.txt to see a list of database parameters                     
+ 
+if this is acceptable type 'y' and press enter, else press enter 
+y
+ 
+the number of decks used 
+ 6 
+ 
+input the maximum percentage of the stack of cards
+remaining in the shoe when the dealer reshuffles (15-99) 
+ 25 
+ 
+input the hard total that the dealer must stand at 
+ 23 
+ 
+input the soft total that the dealer must stand at 
+ 25 
+ 
+input the hard total that the player must stand at in games wherein,
+upon the dealer's turn, the dealer will draw at least one additional card
+to the dealer's-initial hand, else press enter.
+ 25 
+ 
+input the soft total that the player must stand at in games wherein,
+upon the dealer's turn, the dealer will draw at least one additional card
+to the dealer's-initial hand, else press enter.
+ 27 
+ 
+add one of three rules to specify the outcome of games wherein
+a tie-score contest does occur.
+ 
+press enter to add a rule to specify a nobody-wins-ties contest occurs.
+press 1 and enter to add a rule to specify a dealer-wins ties contest occurs.
+press 2 and enter to add a rule to specify a player-wins-ties contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a player-bust contest does occur.
+ 
+press enter to add a rule to specify a player-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a player-bust-push contest occurs.
+press 2 and enter to add a rule to specify a player-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a dealer-bust contest does occur.
+ 
+press enter to add a rule to specify a dealer-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a dealer-bust-push contest occurs.
+press 2 and enter to add a rule to specify a dealer-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+a double-bust contest does occur.
+ 
+press enter to add a rule to specify a double-bust-loss contest occurs.
+press 1 and enter to add a rule to specify a double-bust-push contest occurs.
+press 2 and enter to add a rule to specify a double-bust-win contest occurs.
+ 0 
+ 
+add one of three rules to specify the outcome of games wherein
+the dealer's hand total does equal twenty-eight points,
+and wherein the dealer bust does occur.
+
+press enter to add a rule to specify the outcome conforms to normal rules
+press 1 and enter to add a rule to specify the outcome is a stalemate.
+press 2 and enter to add a rule to specify the outcome is the dealer's hand wins.
+ 0 
+ 
+press 1 and enter for an initial hand that consists of
+a pair of jokers has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand,
+else press enter 
+ 1 
+ 
+press 1 and enter for an initial hand that consists of 
+an ace and a king has a value of twenty-seven points,
+and in most cases is a predetermined-winning-complete hand, 
+else press enter 
+ 1 
+ 
+press 1 and enter for an initial hand that consists of 
+a joker and a card of any rank other than joker
+has a value of twenty-seven points, and in most cases 
+is a predetermined-winning-complete hand,
+else press enter 
+ 1 
+ 
+press 1 and enter for any hand that includes at least one joker
+has a value of twenty-seven points, and in most cases
+is a predetermined-winning-complete hand, else press enter 
+ 0 
+ 
+press 1 and enter for any player hand consisting of nine cards 
+with numerical sum value of less than twenty-eight points
+is a predetermined-winning-complete hand, else press enter 
+ 0 
+ 
+press 1 and enter to allow the player to surrender, else press enter 
+ 1 
+ 
+press 1 and enter for allow the player to double down, else press enter
+ 1 
+ 
+press 1 and enter to restrict the player's use of double down option
+to those hands wherein the player's hand total is equal to one of
+a user-defined set of hand totals, 
+else press enter 
+ 0 
+
+press 1 and enter for double on more than two cards, else press enter 
+ 0 
+ 
+press 1 and enter to allow the player to split, else press enter 
+ 1 
+ 
+press 1 and enter for split every pair, else press enter 
+ 0 
+ 
+press 1 and enter for allow the player to double down after a split,
+else press enter 
+ 1 
+ 
+enter the maximum number of post-split hands allowed per player player per round 
+ 4 
+ 
+press 1 and enter for allow player to re-split aces, else press enter 
+ 1 
+ 
+press 1 and enter for allow the player to draw to split aces, else press enter 
+ 1 
+ 
+input the odds on the game wager that the dealer will pay the player for
+a predetermined-winning-complete hand that consists of 
+a pair of jokers. 
+ 2 
+ 
+input the odds on the game wager that the dealer will pay the player for
+an predetermined-winning-complete hand that consists of 
+an ace and a king. 
+ 1.5 
+ 
+press 1 and enter for a post-split hand that consists of 
+an ace and a king is a predetermined-winning-complete hand, 
+else press enter 
+ 0 
+ 
+input the odds on the game wager that the dealer will pay the player for
+a predetermined-winning-complete hand that consists of 
+a joker and a card of any rank other than joker.
+ 1 
+ 
+press 1 and enter for a post-split hand that consists of 
+a joker and a card of any rank other than joker 
+is a predetermined-winning-complete hand, 
+else press enter 
+ 0 
+ 
+press 1 and enter for in most cases any player hand 
+that has a numerical sum value of twenty-seven points
+is a predetermined-winning-complete hand, 
+else press enter 
+ 0 
+ 
+press 1 and enter for a player's initial hand with a value of 27 points
+beats a dealer's initial hand with a value of 27 points,
+else press enter 
+ 0 
+ 
+press 1 and enter for bonus 27 payouts, else press enter 
+ 1 
+ 
+enter bonus payout for 6  card 27, else press enter 
+ 0 
+ 
+enter bonus payout for 7  card 27, else press enter 
+ 0 
+ 
+enter bonus payout for 8  card 27, else press enter 
+ 0 
+ 
+enter bonus payout for 9  card 27, else press enter 
+ 0 
+ 
+enter bonus payout for 89T mixed suits, else press enter 
+ .5 
+ 
+enter bonus payout for 89T same suit, else press enter 
+ 1 
+ 
+enter bonus payout for 89T spades suit, else press enter 
+ 2 
+ 
+press 1 and enter for bonuses for 8-9-10 hands pay off on split hands,
+else press enter.
+ 1 
+ 
+press 1 and enter for bonuses for 8-9-10 hands pay off on double down hands,
+else press enter.
+ 1 
+ 
+Press 1 and enter for dealer makes bonus payouts a multiple of the table minimum
+on 8-9-10 hands, else press enter 
+ 0 
+ 
+enter bonus payout for 999 mixed suits, else press enter 
+ 9 
+ 
+enter bonus payout for 999 same suit, else press enter 
+ 99 
+ 
+enter jackpot for 999 mixed suit and any dealer 99, else press enter 
+ 999 
+ 
+enter jackpot for 999 same suit and any dealer 99, else press enter 
+ 999 
+ 
+press 1 and enter for bonuses for 999 hands pay off on split hands,
+else press enter.
+ 1 
+ 
+press 1 and enter for bonuses for 999 hands pay off on double down hands,
+else press enter.
+ 1 
+ 
+Press 1 and enter for dealer makes bonus payouts a multiple of the table minimum
+on 999 hands, else press enter 
+ 1 
+ 
+ 
+a brief description of the game rules reads as follows: 
+open J23h25s6d/game13i.txt to see a list of user-defined game rules
+
+Press 1 and enter to use simulation results to take into account
+the improvement in the expected value of the game wager caused by
+the addition of bonus payouts for qualifying-five-card-poker hands,
+else press enter 
+ 0 
+ 
+
+START: 12-24-2013 15:13:41
+
+END:   12-24-2013 15:14:40
